@@ -1,0 +1,161 @@
+
+* {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 80%;
+  margin: 0;
+  background-image: url(galaxy.jpg);
+  background-size: cover;  
+  background-position: center; 
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  color: white; 
+}
+
+
+header {
+  margin-bottom: 20px;
+}
+
+.haut-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.divlogo img.logo {
+  height: 60px;
+}
+
+
+.categories {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.categories a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.categories a:hover {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.bloc-4 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.insertion {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.logo-recherche img {
+  height: 20px;
+  cursor: pointer;
+}
+
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 20px; 
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #eaeaea;
+}
+
+.tab-active {
+  background-color: #333;
+  color: white;
+}
+
+
+.content {
+  display: none;
+  margin-top: 20px;
+}
+
+.content.active {
+  display: block;
+}
+
+
+.superposition img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+footer {
+  margin-top: 50px; 
+  padding: 20px;
+  text-align: center;
+}
+
+footer .contenu-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+footer h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #007BFF;
+}
+
+footer img {
+  height: 25px;
+}
